@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.*?>
+<?scenebuilder-background-color 0x202020ff?>
+
+<Pane fx:id="anchorLogin" stylesheets="@../styles/Styles.css" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="333.0" prefWidth="565.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="br.com.badchoices.controller.Prologo6Controller">
+  <children>
+    <Button fx:id="proximo" onMouseClicked="#proximo" layoutX="489.0" layoutY="298.0" mnemonicParsing="false" text="Próximo" />
+    <Label layoutX="21.0" layoutY="72.0" text="Enquanto seu pai lentamente agonizava,&#10;por estar privado de sua medicação,&#10;Heitor sentia seu corpo formigar, uma dormência dolorida.&#10;Um calor intenso acompanhado de um suor frio e anestésico percorria seu corpo.&#10;Sua respiração havia parado em uma longa e interminável inspiração.&#10;Seus pulmões e seu coração doíam e parecia que não resistiria a tamanha pressão, &#10;achava que explodiria se aquela sensação perdurasse por mais algum tempo. &#10;Seu corpo assumia um peso descomunal impedindo-o de se movimentar." textFill="#cc0000">
+      <font>
+        <Font name="Agency FB" size="20.0" />
+      </font>
+    </Label>
+  </children>
+</Pane>

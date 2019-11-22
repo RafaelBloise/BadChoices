@@ -1,0 +1,46 @@
+.button {
+    -fx-font-weight: bold;
+}
+
+
+#anchorLogin{
+    -fx-background-image: url(../others/FXML/FOTOS/comeco.png);
+     -fx-background-repeat: no-repeat;
+    -fx-background-size: 120%;
+}
+
+#tela1{
+    -fx-background-image: url(../others/FXML/FOTOS/1.PNG);
+     -fx-background-repeat: no-repeat;
+    -fx-background-size: 120%;
+}
+
+#tela2{
+    -fx-background-image: url(../others/FXML/FOTOS/2.jpeg);
+     -fx-background-repeat: no-repeat;
+    -fx-background-size: 120%;
+}
+
+#tela3{
+    -fx-background-image: url(../others/FXML/FOTOS/3.png);
+     -fx-background-repeat: no-repeat;
+    -fx-background-size: 120%;
+}
+
+#tela4{
+    -fx-background-image: url(../others/FXML/FOTOS/4.png);
+     -fx-background-repeat: no-repeat;
+    -fx-background-size: 120%;
+}
+
+#historia1{
+      -fx-background-image: url(../others/FXML/FOTOS/hist.jpeg);
+     -fx-background-repeat: no-repeat;
+    -fx-background-size: 120%;
+}
+
+#gameover1{
+      -fx-background-image: url(../others/FXML/FOTOS/Fim1.png);
+     -fx-background-repeat: no-repeat;
+    -fx-background-size: 120%;
+}

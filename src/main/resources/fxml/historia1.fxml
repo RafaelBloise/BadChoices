@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="historia1" prefHeight="400.0" prefWidth="600.0" stylesheets="@../styles/Styles.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="br.com.badchoices.controller.Historia1Controller">
+   <children>
+      <Button fx:id="avancar" layoutX="499.0" layoutY="341.0" mnemonicParsing="false" onMouseClicked="#avancar" text="Avançar" />
+      <Label layoutX="33.0" layoutY="24.0" text="Está nas maõs do jovem Heitor decidir entre&#10;a vida ou a morte de seu pai...&#10;&#10;Ele olha a caixa de remédios na cabeceira ao lado &#10;do pai e respira fundo.&#10;&#10;Por um instante ele lembra de todo seu passado&#10;conturbado ao lado dele.&#10;&#10;E agora ele está lá: indefeso.&#10;&#10;Agora é hora de fazer a primeira escolha.&#10;&#10;pense bem..." textFill="#cc0000">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

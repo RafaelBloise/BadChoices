@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.*?>
+<?scenebuilder-background-color 0x202020ff?>
+
+<Pane fx:id="anchorLogin" stylesheets="@../styles/Styles.css" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="333.0" prefWidth="565.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="br.com.badchoices.controller.Prologo5Controller">
+  <children>
+    <Button fx:id="proximo" onMouseClicked="#proximo" layoutX="489.0" layoutY="298.0" mnemonicParsing="false" text="Próximo" />
+    <Label layoutX="23.0" layoutY="14.0" text="Heitor não se cansava de amaldiçoar o dia do acidente que vitimou sua mãe&#10;e concedeu à seu pai aquela vida vegetativa, &#10;condenando o único filho do casal&#10;à uma condição de vida análoga à de um escravo.&#10; Todos os dias o velho divertia-se fazendo-lhe exigências descabidas &#10;que se não prontamente atendidas, &#10;invariavelmente resultava na ameaça de deserdá-lo.&#10;A cada nova exigência Heitor vociferava:&#10;     &quot;- Se esse velho f.d.p. tivesse partido ao invés de minha mãe... &#10;      certamente minha vida seria diferente.&quot;&#10;Porém naquela manhã, alguma coisa estava diferente. &#10;Existia a convicção que uma nova vida estava para começar,&#10;bastava tomar a decisão correta e aguardar as decorrências." textFill="#cc0000">
+      <font>
+        <Font name="Agency FB" size="20.0" />
+      </font>
+    </Label>
+  </children>
+</Pane>

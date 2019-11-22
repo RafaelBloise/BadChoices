@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.*?>
+<?scenebuilder-background-color 0x000000ff?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="333.0" prefWidth="565.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Label layoutX="31.0" layoutY="47.0" prefHeight="259.8763427734375" prefWidth="504.0" text="Passados mais de nove anos dos fatos aqui narrados, &#10;todas as noites ouço as desesperadas súplicas&#10;de meu vizinho de cela. &#10;Paralítico pela queda e enlouquecido pelo remorso, &#10;clama miseravelmente pela morte,&#10;rogando pela clemente intervenção das três criaturas" textAlignment="CENTER" textFill="#ff3333">
+      <font>
+        <Font name="Elephant" size="19.0" />
+      </font>
+    </Label>
+  </children>
+</Pane>

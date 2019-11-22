@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?scenebuilder-background-color 0x000000ff?>
+
+<Pane fx:id="tela2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="474.0" prefWidth="594.0" stylesheets="@../styles/Styles.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.badchoices.controller.Tela2Controller">
+  <children>
+    <Button fx:id="btn1" layoutX="134.0" layoutY="271.0" mnemonicParsing="false" onMouseClicked="#btn1" prefHeight="54.000099999997474" prefWidth="146.0" text="Correr" />
+    <Button fx:id="btn2" layoutX="331.0" layoutY="271.0" mnemonicParsing="false" onMouseClicked="#btn2" prefHeight="54.000099999997474" prefWidth="146.0" text="Ficar" />
+    <Label layoutX="144.0" layoutY="179.0" text="As criaturas chegaram!" textAlignment="CENTER" textFill="RED">
+      <font>
+        <Font name="Chiller" size="50.0" />
+      </font>
+    </Label>
+  </children>
+</Pane>

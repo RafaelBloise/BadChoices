@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.*?>
+<?scenebuilder-background-color 0x000000ff?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="333.0" prefWidth="565.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Label layoutX="24.0" layoutY="22.0" prefHeight="247.7265625" prefWidth="527.0" text="Heitor acorda, ainda  alucinado, sem saber onde está, e, &#10;reparando no lugar, ele percebe que está em um hospital onde o médico lhe diz&#10;que ele estava em coma devido a um acidente com a mãe dele,&#10;não o mesmo acidente que foi descrito na história, pois aquele não existiu, &#10;mas, sua mãe morrera do mesmo modo e ELE , ficou vegetativo...&#10;não aceitando esta situação e muito nervoso pelo que acabara de ouvir, &#10;ele acaba tendo uma crise nervosa e morre!" textAlignment="CENTER" textFill="WHITE">
+      <font>
+        <Font name="Agency FB" size="20.0" />
+      </font>
+    </Label>
+    <Label layoutX="229.0" layoutY="229.0" text="GAME OVER!" textAlignment="RIGHT" textFill="#cc0000">
+      <font>
+        <Font name="Chiller" size="25.0" />
+      </font>
+    </Label>
+    <Button layoutX="253.0" layoutY="270.0" mnemonicParsing="false" text="Inicio!" />
+  </children>
+</Pane>

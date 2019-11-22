@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.*?>
+<?scenebuilder-background-color 0x202020ff?>
+
+<Pane fx:id="anchorLogin" stylesheets="@../styles/Styles.css" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="333.0" prefWidth="565.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="br.com.badchoices.controller.Prologo4Controller">
+  <children>
+    <Button fx:id="proximo" onMouseClicked="#proximo" layoutX="489.0" layoutY="298.0" mnemonicParsing="false" text="Próximo" />
+    <Label layoutX="9.0" layoutY="62.0" text="Na verdade,&#10;para Heitor a morte do velho não se consistia apenas em alguns espasmos,&#10;um merecido desespero no olhar.&#10;Com sorte presenciaria a fisionomia de dor,&#10;a expressão de horror e ao final, &#10;o completo relaxamento daquele corpo decrépito. &#10;A morte, daquele velho, seria sua passagem para a vida. &#10;Uma vida que lhe foi negada pela simples existência daquela repulsiva criatura." textFill="#cc0000">
+      <font>
+        <Font name="Agency FB" size="22.0" />
+      </font>
+    </Label>
+  </children>
+</Pane>

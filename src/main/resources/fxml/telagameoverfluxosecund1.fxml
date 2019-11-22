@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?scenebuilder-background-color 0x202020ff?>
+
+<Pane fx:id="gameover1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="333.0" prefWidth="565.0" stylesheets="@../styles/Styles.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.badchoices.controller.GameOver1Controller">
+  <children>
+    <Label layoutX="133.0" layoutY="7.0" prefHeight="277.0" prefWidth="371.0" text="Heitor deu o remédio,&#10;sua vida não foi impactada em nada&#10;seu pai continua o tratando mal,&#10;e vegetativo até o fim da sua mizerável vida." textAlignment="CENTER" textFill="#da1414">
+      <font>
+        <Font name="Agency FB" size="22.0" />
+      </font>
+    </Label>
+    <Label layoutX="231.0" layoutY="238.0" text="GAME OVER!" textAlignment="RIGHT" textFill="#cc0000">
+      <font>
+        <Font name="Chiller" size="25.0" />
+      </font>
+    </Label>
+  </children>
+</Pane>

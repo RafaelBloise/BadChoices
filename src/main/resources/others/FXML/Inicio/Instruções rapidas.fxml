@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.text.Font?>
+
+<Pane blendMode="DARKEN" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="316.0" prefWidth="469.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <ImageView fitHeight="315.0" fitWidth="471.5569002602053" layoutX="-3.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@começo.png" />
+      </image>
+    </ImageView>
+    <Label layoutX="10.0" layoutY="14.0" minHeight="56.8427734375" prefHeight="59.8427734375" prefWidth="144.5078125" text="BadChoices" textAlignment="CENTER" textOverrun="ELLIPSIS" wrapText="false">
+      <font>
+        <Font name="Chiller" size="40.0" />
+      </font>
+      <textFill>
+        <Color blue="0.000" green="0.000" red="0.800" fx:id="x1" />
+      </textFill>
+    </Label>
+    <Button layoutX="410.0" layoutY="281.0" mnemonicParsing="false" text="OK" />
+    <ImageView fitHeight="26.547594198608564" fitWidth="134.5078125" layoutX="87.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../Pictures/Anotação%202019-10-25%20092559.jpg" />
+      </image>
+    </ImageView>
+    <Label layoutX="14.0" layoutY="107.0" prefHeight="165.0" prefWidth="448.0" text="O jogo em si consiste em uma história,&#10;a qual suas escolhas afetam diretamente o personagem,&#10;Para cada escolha uma reação.&#10;Exemplo: &#10;Boa sorte!&#10;III lei de Newton : &quot;Para toda ação existe uma reação.&quot;" textFill="WHITE" wrapText="false">
+      <font>
+        <Font name="Agency FB Bold" size="23.0" />
+      </font>
+    </Label>
+    <Label layoutX="167.0" layoutY="78.0" text="Instrução rápida" textAlignment="CENTER" textFill="$x1" underline="true" wrapText="false">
+      <font>
+        <Font name="Agency FB Bold" size="24.0" />
+      </font>
+    </Label>
+  </children>
+</Pane>

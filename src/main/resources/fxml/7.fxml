@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.*?>
+<?scenebuilder-background-color 0x202020ff?>
+
+<Pane fx:id="anchorLogin" stylesheets="@../styles/Styles.css" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="333.0" prefWidth="565.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="br.com.badchoices.controller.Prologo7Controller">
+  <children>
+    <Button fx:id="proximo" onMouseClicked="#proximo" layoutX="489.0" layoutY="298.0" mnemonicParsing="false" text="Próximo" />
+    <Label layoutX="29.0" layoutY="14.0" text="Enquanto procurava desvencilhar-se daquele estado,&#10;pode ver que no chão próximo à janela, &#10;três pequenas colunas de fumaça negra formavam-se do nada.&#10;A medida que avolumavam-se, &#10;etéreas e conturbadas como se impelidas pelo vento &#10;evidenciava-se o vulto de três criaturas cobertas com vestes negras.&#10;A escuridão que emanava de seus corpos&#10;absorvia toda a luz que estivesse ao seu redor &#10;transformando aquela visão &#10;num caleidoscópio de luzes em torno de seus corpos.&#10;Estranhamente, toda luz existente naquele quarto,&#10;naquele momento foi atraída para interior negro daquelas criaturas,&#10;devorados pela escuridão." textFill="#cc0000">
+      <font>
+        <Font name="Agency FB" size="20.0" />
+      </font>
+    </Label>
+  </children>
+</Pane>

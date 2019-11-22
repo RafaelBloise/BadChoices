@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?scenebuilder-background-color 0x202020ff?>
+
+<Pane fx:id="anchorLogin" stylesheets="@../styles/Styles.css" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="333.0" prefWidth="565.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.badchoices.controller.Prologo2Controller">
+  <children>
+    <Button fx:id="proximo" layoutX="489.0" layoutY="298.0" mnemonicParsing="false" onMouseClicked="#proximo" text="Próximo" />
+    <Label layoutX="27.0" layoutY="88.0" text="Seu pai, um homem atormentado pela paralisia há mais de quinze anos,&#10;naquela manhã, parecia que não conseguiria mais se agarrar àquela vida.&#10;Heitor já havia em outras ocasiões, presenciado crises como aquela&#10;e por experiência própria, aprendera&#10;a não contar como certa, a viagem final daquela criatura&#10;que ao longo daqueles anos aprendera a desprezar." textFill="#cc0000">
+      <font>
+        <Font name="Agency FB" size="22.0" />
+      </font>
+    </Label>
+  </children>
+</Pane>

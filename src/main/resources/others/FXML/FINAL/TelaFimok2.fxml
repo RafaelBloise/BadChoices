@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.*?>
+<?scenebuilder-background-color 0x000000ff?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="333.0" prefWidth="565.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Label layoutX="113.0" layoutY="14.0" prefHeight="305.0" prefWidth="339.0" text="Por isso, &#10;Embora atualmente residindo em um hospital psiquiátrico,&#10;rogo aos jogadores dessa história&#10;que antes de rogarem pela alteração &#10;de qualquer fato de suas vidas,&#10;por considerarem, tais fatos injustos,&#10;lembrem-se que sua súplica pode um dia&#10;vir a ser atendida&#10;e seus executores, não consideram &#10;o dia,&#10;hora,&#10;conveniência,&#10;oportunidade &#10;ou suas decorrências" textAlignment="CENTER" textFill="#ff3333">
+      <font>
+        <Font name="Agency FB" size="18.0" />
+      </font>
+    </Label>
+  </children>
+</Pane>
